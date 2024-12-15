@@ -1,0 +1,31 @@
+{
+   "name": "linktree",
+   "private": true,
+   "version": "0.0.0",
+   "type": "module",
+   "author": {
+      "name": "Lucas Galdino",
+      "url": "https://github.com/lucasfgaldinos"
+   },
+   "scripts": {
+      "dev": "vite",
+      "build": "tsc -b && vite build",
+      "deploy": "gh-pages -d dist"
+   },
+   "dependencies": {
+      "@phosphor-icons/react": "^2.1.7",
+      "react": "^18.3.1",
+      "react-dom": "^18.3.1",
+      "react-type-animation": "^3.2.0",
+      "styled-components": "^6.1.13"
+   },
+   "devDependencies": {
+      "@biomejs/biome": "^1.9.4",
+      "@types/react": "^18.3.12",
+      "@types/react-dom": "^18.3.1",
+      "@vitejs/plugin-react": "^4.3.4",
+      "globals": "^15.12.0",
+      "typescript": "~5.6.2",
+      "vite": "^6.0.1"
+   }
+}
